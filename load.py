@@ -1,36 +1,7 @@
 import pandas as pd
 from sqlalchemy.orm import sessionmaker
-
-
-# def load_csv_to_postgres(table_name, engine, schema):
-#     """
-#     Loads data from a csv file to a postgres DB table
-    
-#     Parameters:
-#     -table_name(str): a postgres table
-#     -engine (sqlalchemy.engine): an SQL alchemy eninge object
-#     -schema (str): a postgres DB schema
-#     """
-    
-#     df = pd.read_csv('datasets\goalbet.csv')
-    
-#     return engine
-
-#     df.to_sql(table_name, con = engine, if_exists='replace', index=False, schema=schema)
-    
-#     print(f'{len(df)} rows loaded to staging successfully')
-    
-# # def exec_procedure(engine):
-# #     session = sessionmaker(bind=engine)
-# #     session = session()
-# #     session.execute('CALL "STG".agg_trip_data()')
-# #     session.commit()
-    
-#     print('Stored procedure executed successfully')
     
     
-    
-import pandas as pd
 
 def load_csv_to_postgres(csv_file_path, table_name, engine, schema):
     '''
