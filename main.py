@@ -1,6 +1,6 @@
 from helpers import get_postgres_engine
-from extract import run_extraction
-from load import load_csv_to_postgres
+from modules.extract import run_extraction
+from modules.load import load_csv_to_postgres
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import text
 

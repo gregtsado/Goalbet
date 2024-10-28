@@ -1,2 +1,5 @@
 *.env
 *.csv
+.ETL.ipynb
+.testing.py
+.datasets/football
