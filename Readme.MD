@@ -5,7 +5,6 @@ data. We build predictive models to predict sports scores for insight
 analysis & Betting purposes. We retrieve data from a wide variety of
 sources in a variety of formats.
 
-
 ## Project Goal
 
 Objective: Build an end-to-end Extract, Transform & Load (ETL) pipeline that
@@ -25,7 +24,7 @@ team members
 
 ### Technologies utilized
 Vs-Code
-GPC BigQuery
+Draw.io
 Postgres
 
 
