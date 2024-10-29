@@ -1,5 +1,5 @@
 ## PROJECT INTRODUCTION
-![CHEESE!](diagrams\pic.jpg)
+![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/pic.jpg)
 GoalBet is a sports data analytics company that analyzes historic sports
 data. We build predictive models to predict sports scores for insight
 analysis & Betting purposes. We retrieve data from a wide variety of
@@ -18,14 +18,15 @@ pulls data from the website of one of our data providers(GoalBet).
 team members
 
 ### Data Architecture
-![CHEESE!](diagrams\data architecture.jpg)
-
+![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/data%20architecture.jpg)
+Data source is the Api from Goalbet where draw are drawn according to specify dates and seasons. 
+the raw data is then cleaned and con
 
 
 ### Technologies utilized
-Vs-Code
-Draw.io
-Postgres
+- Vs-Code
+- Draw.io
+- Postgres
 
 
 ### Step for step process of project execution
@@ -33,10 +34,8 @@ Postgres
 • Develop a project architure
 • Extracted the files from from web api onto the python environment
 • Loaded the raw files into storage and IDE
-• Performed tranformation on the files and uploaded to a cleaned folder in the buckets
-• Loaded the raw files into the gcp bucket
-• transfered cleaned files to a bigquery database in a stagging environment
+• Performed tranformation on the files and uploaded to a cleaned folder in the stagging area of teh database(postgressql)
 
-• Created stored procedures and created loaded aggregated data in a production dataset in the datawarehouse
+• A stored procedures is created and the aggregated data is loaded into a production Area in the database
 
 • Properly document all your processes for reproducibility – version control
