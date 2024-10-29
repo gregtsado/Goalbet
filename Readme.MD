@@ -1,6 +1,6 @@
 ## PROJECT INTRODUCTION
 ![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/pic.jpg)
-GoalBet is a sports data analytics company that analyzes historic sports
+- GoalBet is a sports data analytics company that analyzes historic sports
 data. We build predictive models to predict sports scores for insight
 analysis & Betting purposes. We retrieve data from a wide variety of
 sources in a variety of formats.
@@ -18,8 +18,8 @@ pulls data from the website of one of our data providers(GoalBet).
 team members
 
 ### Data Architecture
-![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/data%20architecture.jpg)
-Data source is the Api from Goalbet where draw are drawn according to specify dates and seasons. 
+![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/archi_goalbet.drawio.png)
+- Data source is the Api from Goalbet where draw are drawn according to specify dates and seasons. 
 the raw data is then cleaned and con
 
 
