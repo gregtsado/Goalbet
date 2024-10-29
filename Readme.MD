@@ -39,3 +39,5 @@ the raw data is then cleaned and con
 • A stored procedures is created and the aggregated data is loaded into a production Area in the database
 
 • Properly document all your processes for reproducibility – version control
+
+![CHEESE!](https://github.com/gregtsado/Goalbet/blob/main/diagrams/aggregated%20data.jpg)
